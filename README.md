@@ -9,7 +9,6 @@ My Skills 숙련도 토글 버튼
 My Skills옆의 숙련도 토글 버튼을 누르면 각 언어에 대한 숙련도가 별로 표시되며, 다시 누르면 별이 사라집니다.
 3) 코드 위치
 HTML: index.html
-html
 <button onclick="toggleSkills()">숙련도 토글</button>
 JS: script.js
 function toggleSkills() {
