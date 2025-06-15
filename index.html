@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>이정호 포트폴리오</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<section class="intro">
+  <div class="intro-box">
+    <img src="이정호.jpg" alt="이정호 사진" class="intro-avatar">
+    <h1>20252178 이정호</h1>
+    <p class="job-role">희망 직무: 백엔드 프로그래머</p>
+    <p>Lee Jung-ho, 21 years old</p>
+  </div>
+</section>
+
+  <section class="skills">
+    <div class="skill-header">
+      <h2>My Skills</h2>
+      <button onclick="toggleSkills()">숙련도 토글</button>
+    </div>
+    <div class="skill-list">
+      <div class="skill">
+        <img src="js.png" alt="JavaScript" class="lang-icon">
+        <div class="skill-text">JavaScript</div>
+        <div class="level">★★☆☆☆</div>
+      </div>
+      <div class="skill">
+        <img src="python.png" alt="Python" class="lang-icon">
+        <div class="skill-text">Python</div>
+        <div class="level">★☆☆☆☆</div>
+      </div>
+      <div class="skill">
+        <img src="c.png" alt="C Language" class="lang-icon">
+        <div class="skill-text">C Language</div>
+        <div class="level">★★★☆☆</div>
+      </div>
+      <div class="skill">
+        <img src="cpp.png" alt="C++" class="lang-icon">
+        <div class="skill-text">C++</div>
+        <div class="level">★☆☆☆☆</div>
+      </div>
+    </div>
+  </section>
+
+  <section class="projects">
+    <div class="project-header">
+      <h2>Projects</h2>
+      <button onclick="toggleProjects()">프로젝트 소개 토글</button>
+    </div>
+    
+    <div class="project-images">
+      <div class="img-box"><img src="project1.png" alt="project1"></div>
+      <div class="img-box"><img src="project2.png" alt="project2"></div>
+      <div class="img-box"><img src="project3.png" alt="project3"></div>
+      <div class="img-box"><img src="project4.png" alt="project4"></div>
+      <div class="img-box"><img src="project5.png" alt="project5"></div>
+    </div>
+
+    <div class="project-list">
+      <div class="project">
+        <strong>Project 1: 야옹이와 수프</strong>
+        <p id="desc1" style="display: none;">C언어를 활용한 고양이 수프 게임 구현 프로젝트입니다.</p>
+      </div>
+      <div class="project">
+        <strong>Project 2: AI 웹 챗봇</strong>
+        <p id="desc2" style="display: none;">웹에서 동작하는 인공지능 기반 챗봇 개발 예정입니다.</p>
+      </div>
+      <div class="project">
+        <strong>Project 3: 스위스 D-day</strong>
+        <p id="desc3" style="display: none;">여행 날짜 계산기 프로젝트입니다.</p>
+      </div>
+      <div class="project">
+        <strong>Project 4: 포트폴리오 사이트</strong>
+        <p id="desc4" style="display: none;">자기소개 및 프로젝트 소개용 웹사이트 제작입니다.</p>
+      </div>
+      <div class="project">
+        <strong>Project 5: PR게임</strong>
+        <p id="desc5" style="display: none;">무작위 숫자 외치기 게임 개발 예정입니다.</p>
+      </div>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
